@@ -89,7 +89,6 @@ class HeartAnimation {
     const centerY = this.canvas.height / 2 - 50;
     const size = 3 + Math.sin(this.time * 0.002) * 0.3; // Pulsação suave
 
-    // Sombra
     this.ctx.save();
     this.ctx.shadowColor = "rgba(255, 23, 68, 0.5)";
     this.ctx.shadowBlur = 30;
